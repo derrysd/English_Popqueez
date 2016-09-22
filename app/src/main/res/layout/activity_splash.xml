@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="derry.englishpopqueez.SplashActivity"
+    android:background="@drawable/background"
+    xmlns:htext="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:src="@drawable/rects"
+        android:layout_marginTop="30dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_titles"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/title_english"
+            android:id="@+id/title_english"
+            android:visibility="invisible"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:src="@drawable/title_popqueez"
+            android:id="@+id/title_popqueez"
+            android:layout_below="@+id/title_english"
+            android:layout_marginTop="10dp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+    <com.hanks.htextview.HTextView
+        android:id="@+id/button_mulai"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        htext:animateType="line"/>
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">English PopQueez</string>
+    <string name="question">What\'s the name in the picture above?</string>
+    <string name="your_score">Your Score:</string>
+</resources>
